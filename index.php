@@ -29,20 +29,20 @@
 				</div>
 
 				<div class="feature">
-					<h2>Trade</h2>
+					<h2>Console Game</h2>
 				</div>
 				<div class="content">
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="ps4.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re2.jpg"></a>
+						<a href="#"><img src="nintendo.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nier.jpg"></a>
+						<a href="#"><img src="xbox1.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re7.jpg"></a>
+						<a href="#"><img src="xbox360.jpg"></a>
 					</div>
 					<div class="content-product">
 						<a href="#"><img src="nier.jpg"></a>

@@ -7,10 +7,10 @@
 				<div class="feature">
 					<h2>Jual</h2>
 					<div class="dropdown">
-						<button class="dropbtn">Sort By</button>
+						<button class="dropbtn-page">Sort By</button>
 							<div class="dropdown-content">
 						  		<a href="#">Harga</a>
-						  		<a href="#">Jarak</a>
+						  		<a href="#">Lokasi</a>
 							</div>
 					</div>
 				</div>
@@ -40,7 +40,7 @@
 					</div>
 
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="anthem.jpg"></a>
 					</div>
 
 					<div class="content-product">

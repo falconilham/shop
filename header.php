@@ -14,6 +14,10 @@
 				<a class="navbar-brand" href="index.php">
 					<img src="mpgames.png">
 				</a>
+				<div class="brand">
+					<span>Jual/Beli Game Console</span>
+				</div>
+
 				<div class="navbar-menu">
 					<form class="search" action="cari.php" method="post">
 						<input type="text" placeholder="Search.." name="search">
