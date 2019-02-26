@@ -4,7 +4,7 @@
 	<script src="main.js"></script>
 		<body>
 			<div class="screen-wallpaper">
-			<img src="ac.jpg">
+			<img src="img/ac.jpg">
 		</div>
 			<div class="body">
 				<div class="feature">
@@ -12,19 +12,19 @@
 				</div>
 				<div class="content">
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re2.jpg"></a>
+						<a href="#"><img src="img/re2.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nier.jpg"></a>
+						<a href="#"><img src="img/nier.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nier.jpg"></a>
+						<a href="#"><img src="img/nier.jpg"></a>
 					</div>
 				</div>
 
@@ -33,19 +33,19 @@
 				</div>
 				<div class="content">
 					<div class="content-product">
-						<a href="#"><img src="ps4.jpg"></a>
+						<a href="#"><img src="img/ps4.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nintendo.jpg"></a>
+						<a href="#"><img src="img/nintendo.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="xbox1.jpg"></a>
+						<a href="#"><img src="img/xbox1.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="xbox360.jpg"></a>
+						<a href="#"><img src="img/xbox360.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nier.jpg"></a>
+						<a href="#"><img src="img/nier.jpg"></a>
 					</div>
 				</div>
 
@@ -54,19 +54,19 @@
 				</div>
 				<div class="content">
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re2.jpg"></a>
+						<a href="#"><img src="img/re2.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re7.jpg"></a>
+						<a href="#"><img src="img/re7.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nier.jpg"></a>
+						<a href="#"><img src="img/nier.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 				</div>
 			</div>

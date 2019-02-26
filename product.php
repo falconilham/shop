@@ -11,7 +11,7 @@
 				</div>
 				<div class="body-product">
 					<div class="product-img">
-						<img src="ffxv.jpg">
+						<img src="img/ffxv.jpg">
 					</div>
 					<div class="product-desc">
 						<div class="product-name">
@@ -23,32 +23,65 @@
 						</div>
 
 						<div class="product-deskripsi">
-							<span>Mauris lobortis augue ex, ut faucibus nisi mollis ac. Sed volutpat scelerisque ex ut ullamcorper. Cras at velit quis sapien dapibus laoreet a id odio. Sed sit amet accumsan ante, eu congue metus. Aenean eros tortor, cursus quis feugiat sed vestibulum.</span>
+							<span>Mauris lobortis augue ex, ut faucibus nisi mollis ac. Sed volutpat scelerisque ex ut ullamcorper. Cras at velit quis sapien dapibus laoreet a class odio. Sed sit amet accumsan ante, eu congue metus. Aenean eros tortor, cursus quis feugiat sed vestibulum.</span>
 						</div>
 
-						<button class="button-order" value="Pesan">Pesan    ></button>
+						<button class="button-order" value="Pesan"><a href="#">Pesan ==></a></button>
+
+						<div class="tab-product">
+							<div class="nav-tabs">
+								<li class="nav-item1">
+									<a href="#tab-content1">detail</a>
+								</li>
+								<li class="nav-item2 nav-item-active">
+									<a href="#tab-content2">trailer</a>
+								</li>
+								<li class="nav-item3">
+									<a href="#tab-content3">description</a>
+								</li>
+								<li class="nav-item4">
+									<a href="#tab-content4">test</a>
+								</li>
+							</div>
+
+							<div class="product-tab">
+								<div class="tab-content1">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+								<div class="tab-content2 active">
+									<iframe width="827.79" height="360" src="https://www.youtube.com/embed/IiI7SMQA59Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+								</div>
+								<div class="tab-content3">
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+								</div>
+								<div class="tab-content4">
+									Sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
+			
 
 			<div class="feature">
 					<h2>Mungkin Anda Sukai Berdasarkan Genre</h2>
 				</div>
 				<div class="content">
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re2.jpg"></a>
+						<a href="#"><img src="img/re2.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="re7.jpg"></a>
+						<a href="#"><img src="img/re7.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="nier.jpg"></a>
+						<a href="#"><img src="img/nier.jpg"></a>
 					</div>
 					<div class="content-product">
-						<a href="#"><img src="ffxv.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 				</div>
 		</div>
