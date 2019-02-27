@@ -33,19 +33,19 @@
 				</div>
 				<div class="content">
 					<div class="content-product">
-						<a href="#"><img src="img/ps4.jpg"></a>
-					</div>
-					<div class="content-product">
-						<a href="#"><img src="img/nintendo.jpg"></a>
-					</div>
-					<div class="content-product">
-						<a href="#"><img src="img/xbox1.jpg"></a>
-					</div>
-					<div class="content-product">
-						<a href="#"><img src="img/xbox360.jpg"></a>
+						<a href="#"><img src="img/ffxv.jpg"></a>
 					</div>
 					<div class="content-product">
 						<a href="#"><img src="img/nier.jpg"></a>
+					</div>
+					<div class="content-product">
+						<a href="#"><img src="img/anthem.jpg"></a>
+					</div>
+					<div class="content-product">
+						<a href="#"><img src="img/re2.jpg"></a>
+					</div>
+					<div class="content-product">
+						<a href="#"><img src="img/re7.jpg"></a>
 					</div>
 				</div>
 

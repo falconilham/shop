@@ -29,7 +29,15 @@
 						<a href="#"><li class="li-footer">VR</li></a>
 						<a href="#"><li class="li-footer">Cable</li></a>
 				</div>
+
+				<div class="link-footer" style="width: auto;">
+					<h4>Connect With Us</h4>	
+						<a href="#"><li class="li-footer">Call Us At (+21)81293139286</li></a>
+						<a href="#"><li class="li-footer">mohamad.heryanto@gmail.com</li></a>
+				</div>
 			</div>
 		</div>
-	
+		<div class="trademark">
+				<span>Copyright MPGAMES by Ilham</span>
+			</div>
 	</body>

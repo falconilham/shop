@@ -1,3 +1,5 @@
+
+
 $(document).ready(function(){
 	$(".nav-item1").click(function(){
     	$(".nav-item2, .nav-item3, .nav-item4 ").removeClass("nav-item-active");

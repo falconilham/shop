@@ -19,7 +19,6 @@ a{
 }
 
 .container-fluid{
-	max-width: 1536px;
 	min-width: 768;
 	width: 100%;
 }
@@ -337,3 +336,70 @@ margin-bottom: 5%;
 .nav-item-active{
 	background-color:#70ccf2;
 }
+.trademark{
+	width: 100%;
+    background-color: black;
+    color: #acacac;
+    height: 30px;
+    margin: 0 auto;
+    padding: 10px 167px 0px 167px;	
+}
+
+.listing{
+	width: 100%;
+	border: solid 1px;
+	height: auto;
+	margin: 50px 0px 50px 0px;
+}
+#list-game {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#list-game td, #list-game th {
+  /*border: 1px solid #ddd;*/
+  padding: 8px;
+}
+
+#list-game tr:nth-child(even){
+	background-color: #f2f2f2;
+}
+
+#list-game tr:hover {
+	background-color: #ddd;
+}
+#list-game th {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  text-align: center;
+  background-color: #70ccf2;
+  color: white;
+}
+.listing-name{
+	display: flex;
+	vertical-align: middle;
+}
+
+.listing-name img{
+	width: 80px;
+	max-width: 100%;
+}
+
+.list-name1{
+	margin:32px 10px 10px 10px;
+}
+.listing-user{
+	display: flex;
+	vertical-align: middle;
+}
+
+.listing-user img{
+	width: 80px;
+	max-width: 100%;
+}
+
+.list-user{
+	margin:32px 10px 10px 10px;
+}
+

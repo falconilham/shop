@@ -2,6 +2,7 @@
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="jquery-3.3.1.min.js"></script>
 		<script src="main.js"></script>
+		<script src="angular.min.js"></script>
 	<body>
 		<div class="body">
 			<div class="product">
@@ -61,8 +62,41 @@
 						</div>
 					</div>
 				</div>
+				<div class="listing">
+					<table id="list-game">
+						<tr>
+							<th>Name</th>
+							<th>Price</th>
+							<th>Seller</th>
+							<th>Lokasi</th>
+							<th>type</th>
+						</tr>
+						<tr>
+							<td class="listing-name">
+								<div class="listing-img">
+									<img src="img/ffxv.jpg" style="width: 80px">
+								</div>
+								<div class="list-name1">
+									Final Fantasy XV
+								</div>
+							</td>
+							<td>RP.250.000</td>
+							<td class="listing-name">
+								<div class="listing-img">
+									<img src="img/ffxv.jpg" style="width: 80px">
+								</div>
+								<div class="list-name1">
+									Final Fantasy XV
+								</div>
+							</td>
+							<td>Jakarta</td>
+							<td>Second</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			
+
 
 			<div class="feature">
 					<h2>Mungkin Anda Sukai Berdasarkan Genre</h2>

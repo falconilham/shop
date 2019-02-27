@@ -50,10 +50,10 @@
 					</div>
 
 					<div class="dropdown">
-						<button class="dropbtn">Trade</button>
+						<button class="dropbtn">Transaction</button>
 							<div class="dropdown-content">
-						  		<a href="#">Newest</a>
-						  		<a href="#">Location</a>
+						  		<a href="#">Tukar</a>
+						  		<a href="#">Jual</a>
 							</div>
 					</div>
 
