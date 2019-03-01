@@ -1,7 +1,8 @@
 <?php include 'header.php'; ?>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="jquery-3.3.1.min.js"></script>
-	<script src="main.js"></script>
+	<script src="lib/jquery-3.3.1.min.js"></script>
+	<script src="lib/main.js"></script>
+	<script src="lib/vue.min.js"></script>
 		<body>
 			<div class="screen-wallpaper">
 			<img src="img/ac.jpg">

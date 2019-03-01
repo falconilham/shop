@@ -1,14 +1,15 @@
 <?php include 'header.php'; ?>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="jquery-3.3.1.min.js"></script>
-		<script src="main.js"></script>
-		<script src="angular.min.js"></script>
+		<script src="lib/jquery-3.3.1.min.js"></script>
+		<script src="lib/main.js"></script>
+		<script src="lib/angular.min.js"></script>
+		<script src="lib/vue.min.js"></script>
 	<body>
 		<div class="body">
 			<div class="product">
 				<div class="nav-product">
 					<span class="text-nav">Product</span>
-					<span class="">Home / Product</span>
+					<span class=""><a href="./"> Home</a> / Product</span>
 				</div>
 				<div class="body-product">
 					<div class="product-img">
@@ -50,7 +51,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 								</div>
 								<div class="tab-content2 active">
-									<iframe width="827.79" height="360" src="https://www.youtube.com/embed/IiI7SMQA59Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IiI7SMQA59Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
 								</div>
 								<div class="tab-content3">
 									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -70,6 +71,7 @@
 							<th>Seller</th>
 							<th>Lokasi</th>
 							<th>type</th>
+							<th></th>
 						</tr>
 						<tr>
 							<td class="listing-name">
@@ -91,6 +93,29 @@
 							</td>
 							<td>Jakarta</td>
 							<td>Second</td>
+							<td><button class="button-buy">Buy</button></td>
+						</tr>
+						<tr>
+							<td class="listing-name">
+								<div class="listing-img">
+									<img src="img/ffxv.jpg" style="width: 80px">
+								</div>
+								<div class="list-name1">
+									Final Fantasy XV
+								</div>
+							</td>
+							<td>RP.250.000</td>
+							<td class="listing-name">
+								<div class="listing-img">
+									<img src="img/ffxv.jpg" style="width: 80px">
+								</div>
+								<div class="list-name1">
+									Final Fantasy XV
+								</div>
+							</td>
+							<td>Jakarta</td>
+							<td>Second</td>
+							<td><button class="button-buy">Buy</button></td>
 						</tr>
 					</table>
 				</div>

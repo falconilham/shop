@@ -1,8 +1,8 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="jquery-3.3.1.min.js"></script>
-		<script src="main.js"></script>
+		<script src="lib/jquery-3.3.1.min.js"></script>
+		<script src="lib/vue.min.js"></script>
 	</head>
 	<body>
 		<div class="nav-foot">
@@ -38,6 +38,7 @@
 			</div>
 		</div>
 		<div class="trademark">
-				<span>Copyright MPGAMES by Ilham</span>
-			</div>
+				<div class="tahun"> {{ message }} </div>
+				<script src="lib/main.js"></script>
+		</div>
 	</body>
