@@ -154,12 +154,11 @@ margin-bottom: 5%;
 	width: 14%;
     padding: 0px;
     height: 100%;
-    /* ; */
     transition: transform .9s;
     overflow: hidden;
     margin: 0px 0px 29px 29px;
     box-shadow: -8px 3px 10px grey;
-    height: auto;
+    height: max-content;
 }
 
 .content-product img{
@@ -409,7 +408,6 @@ margin-bottom: 5%;
 .profile-left{
 	width: 45%;
 	height: 264px;
-	text-align: center;
 }
 .profile-right{
 	width: 50%;

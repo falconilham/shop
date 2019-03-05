@@ -12,7 +12,7 @@
 					<span class=""><a href="./"> Home</a> / Product</span>
 				</div>
 				<div class="body-product">
-					<div class="product-img">
+					<div class="product-img profil-left">
 						<img src="img/ffxv.jpg">
 					</div>
 					<div class="product-desc">
@@ -51,7 +51,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 								</div>
 								<div class="tab-content2 active">
-									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IiI7SMQA59Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IiI7SMQA59Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 								<div class="tab-content3">
 									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
