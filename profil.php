@@ -14,8 +14,16 @@ include_once 'select_profil.php';
 	$sql = "SELECT user.id_user, user.username, user.email, user.phone, game.title, game.picture FROM user INNER JOIN game ON user.list_game = game.id_game";
 	     
 	$result = mysqli_query($conn, $sql);
+	
 	while($row = $result->fetch_assoc())
 	{ 
+	$list_game = $row['list_game'];
+	var_dump($list_game);
+	die();
+	$exp = explode(",", $list_game);
+	foreach ($exp as $list) {
+	echo $list;
+}
  ?> 
 				<div class="body-product">
 					<div class="profile-left">	
