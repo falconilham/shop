@@ -11,20 +11,12 @@ include_once 'select_profil.php';
 				</div>
 			</div>
 <?php 
-	$sql = "SELECT user.id_user, user.username, user.email, user.phone, game.title, game.picture FROM user INNER JOIN game ON user.list_game = game.id_game";
+	$sql = "SELECT id_user, username, email, phone, list_game FROM user WHERE id_user = 1";
 	     
 	$result = mysqli_query($conn, $sql);
 	
-	while($row = $result->fetch_assoc())
-	{ 
-	$list_game = $row['list_game'];
-	var_dump($list_game);
-	die();
-	$exp = explode(",", $list_game);
-	foreach ($exp as $list) {
-	echo $list;
-}
- ?> 
+	while($row = $result->fetch_assoc()){
+?> 
 				<div class="body-product">
 					<div class="profile-left">	
 						<div class="pp">
@@ -51,27 +43,38 @@ include_once 'select_profil.php';
 									<th>Your List Game</th>
 								</tr>
 								<tr>
+									<?php 
+									$list_game = $row ['list_game'];
+									$array =  explode(',', $list_game);
+									foreach ($array as $item){
+									$query = "SELECT title, picture FROM game WHERE id_game = $item";
+									$result1 = mysqli_query($conn, $query);
+									while($hasil = $result1->fetch_assoc()){	
+									?> 
+									
 									<td class="listing-name" style="justify-content: space-between;">
 										<div class="listing-img">
-											<img src="<?php echo $row['picture']; ?>" style="width: 80px">
+											<img src="<?php echo $hasil['picture']; ?>" style="width: 80px">
 										</div>
 										<div class="list-name1">
-											<?php echo $row['title']; ?>
+											<?php echo $hasil['title']; ?>
 										</div>
 										<div class="button-transaksi">
 											<button class="button-sell">Jual</button>
 											<button class="button-trade">Tukar</button>
 										</div>
 									</td>
+									<?php } ?>
 								</tr>
+									<?php } ?>
 							</table>
 						</div>
 					</div>
 				</div>
 			<?php } ?>
-		</div>
 	</body>
 	<?php include 'footer.php' ?>
+	</div>
 
 			
 		
