@@ -144,7 +144,7 @@ margin-bottom: 5%;
 	margin-bottom: 51px;
 }
 .content{
-	height: 250px;
+	height: 100%;
 	/*;*/
 	justify-content: space-between;
 	display: flex;
@@ -340,7 +340,6 @@ margin-bottom: 5%;
 	background-color:#70ccf2;
 }
 .trademark{
-	width: 100%;
     background-color: black;
     color: #acacac;
     height: 30px;
