@@ -43,14 +43,14 @@ include_once 'select_profil.php';
 									<th>Your List Game</th>
 								</tr>
 								<tr>
-									<?php 
+								<?php 
 									$list_game = $row ['list_game'];
 									$array =  explode(',', $list_game);
 									foreach ($array as $item){
 									$query = "SELECT title, picture FROM game WHERE id_game = $item";
 									$result1 = mysqli_query($conn, $query);
 									while($hasil = $result1->fetch_assoc()){	
-									?> 
+								?> 
 									
 									<td class="listing-name" style="justify-content: space-between;">
 										<div class="listing-img">
