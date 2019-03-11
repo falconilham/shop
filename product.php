@@ -12,7 +12,7 @@
 					<span class=""><a href="./"> Home</a> / Product</span>
 				</div>
 				<div class="body-product">
-					<div class="product-img profil-left">
+					<div class="product-img">
 						<img src="img/ffxv.jpg">
 					</div>
 					<div class="product-desc">
