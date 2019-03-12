@@ -5,8 +5,16 @@
 	<script src="lib/vue.min.js"></script>
 		<body>
 			<div class="screen-wallpaper">
-			<img src="img/ac.jpg">
-		</div>
+				<div class="slides">
+					<img src="img/ac.jpg">
+				</div>
+				<div class="slides">
+					<img src="img/ffxv_wallpaper.jpg">
+				</div>
+				<div class="slides">
+					<img src="img/ac.jpg">
+				</div>
+			</div>
 			<div class="body">
 				<div class="feature">
 					<h2>Jual</h2>
