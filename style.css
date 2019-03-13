@@ -23,6 +23,7 @@ a{
 .container-fluid{
 	min-width: 768;
 	width: 100%;
+	overflow: hidden;
 }
 .navbar-main{
 margin-bottom: 5%;
@@ -81,6 +82,7 @@ margin-bottom: 5%;
   cursor: pointer;
   margin-bottom: 37px;
 }
+
 .dropdown {
   position: relative;
   display: inline-block;
@@ -105,10 +107,11 @@ margin-bottom: 5%;
   display: block;
 }
 .dropdown:hover .dropbtn {
-  color: blue;
+  	background-color: darkturquoise;
+    color: white;
 }
 .screen-wallpaper{
-	width: 3000px;
+	width: 6000px;
 	height: 425px;
 	padding: 0px;
 	overflow: hidden;
@@ -117,7 +120,7 @@ margin-bottom: 5%;
     flex-wrap: wrap;
 }
 .screen-wallpaper img{
-	width: 1282px;
+	width: 1518px;
     max-width: 100%;
     
 }
@@ -129,7 +132,7 @@ margin-bottom: 5%;
 	padding: 0;
 	left: 0px;
 	animation-name: slide;
-	animation: slide 5s infinite; 
+	/*animation: slide 5s infinite;*/ 
 	transition-duration: 30s;
 	transition: all 0.3s ease-in-out;
 }
@@ -138,8 +141,23 @@ margin-bottom: 5%;
 	from {left: 0px;}
 	to {left: -1282px;}
 }
-
-
+.btn-slide{
+	width: 30%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn{
+	width: 4.6%;
+	height: auto;
+	background-color: grey;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #5b5757;
+}
 .feature{
 	height: 30px;
 	margin-top: 5%;

@@ -1,9 +1,4 @@
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script src="lib/jquery-3.3.1.min.js"></script>
-		<script src="lib/vue.min.js"></script>
-	</head>
 	<body>
 		<div class="nav-foot">
 			<div class="content-footer">

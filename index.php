@@ -1,19 +1,31 @@
 <?php include 'header.php'; ?>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="lib/jquery-3.3.1.min.js"></script>
-	<script src="lib/main.js"></script>
-	<script src="lib/vue.min.js"></script>
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="lib/main.js"></script>
 		<body>
 			<div class="screen-wallpaper">
-				<div class="slides">
+				<div class="slides" id="img1">
 					<img src="img/ac.jpg">
 				</div>
-				<div class="slides">
+				<div class="slides" id="img2">
 					<img src="img/ffxv_wallpaper.jpg">
 				</div>
-				<div class="slides">
+				<div class="slides" id="img2">
 					<img src="img/ac.jpg">
 				</div>
+			</div>
+			<div class="btn-slide">
+				<div class="btn" id="btn1">
+					<a href=".img1"></a>
+				</div>
+				
+				<div class="btn" id="btn2">
+					<a href=".img2"></a>
+				</div>
+				
+				<div class="btn" id="btn3">
+					<a href=".img3"></a>
+				</div>
+			</div>
 			</div>
 			<div class="body">
 				<div class="feature">
@@ -80,4 +92,6 @@
 				</div>
 			</div>
 		</body>
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="lib/main.js"></script>
 <?php include 'footer.php' ?>
