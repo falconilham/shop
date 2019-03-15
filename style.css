@@ -12,7 +12,6 @@
     -webkit-font-smoothing: antialiased;
     border: none;
     font-family: alegreyasans-regular;
-    margin: 0px auto;
 }
 a{
 	color: inherit;
@@ -24,6 +23,7 @@ a{
 	min-width: 768;
 	width: 100%;
 	overflow: hidden;
+	margin: 0px auto;
 }
 .navbar-main{
 margin-bottom: 5%;
@@ -64,14 +64,14 @@ margin-bottom: 5%;
     display: flex;
 }
 .search{
-	width: 50%;
+	width: 39%;
 	border-radius: 10px;
 	border-color: rgba(255,165,0,1);
 	transition:width 2s ;
 	margin-top:15px;
 }
 .search input[type=text]{
-	width: 130px;
+	width: 44%;
 }
 .dropbtn {
   background-color: transparent;
@@ -131,29 +131,21 @@ margin-bottom: 5%;
 	position: relative;
 	padding: 0;
 	left: 0px;
-	animation-name: slide;
-	/*animation: slide 5s infinite;*/ 
-	transition-duration: 30s;
-	transition: all 0.3s ease-in-out;
-}
-
-@keyframes slide{
-	from {left: 0px;}
-	to {left: -1282px;}
 }
 .btn-slide{
-	width: 30%;
+	width: 10%;
     height: 20px;
     margin-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin: 10px auto;
 }
 .btn{
-	width: 4.6%;
-	height: auto;
-	background-color: grey;
-	border-radius: 50%;
-	cursor: pointer;
+	width: 13.6%;
+    height: auto;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
 }
 .btn:hover{
 	background-color: #5b5757;
@@ -178,8 +170,8 @@ margin-bottom: 5%;
     transition: transform .9s;
     overflow: hidden;
     margin: 0px 0px 29px 29px;
-    box-shadow: -8px 3px 10px grey;
-    height: max-content;
+    box-shadow: -1px -18px 10px grey;
+    background-color: transparent;
 }
 .content-product img{
 	max-height:100%; 
@@ -196,7 +188,6 @@ margin-bottom: 5%;
 	background-color: #212529;
 	width: 100%;
 	height: 200px;
-	;
 	color: white;
 }
 .content-footer{
@@ -268,7 +259,6 @@ margin-bottom: 5%;
 }
 .body-product{
 	height: auto;
-	margin-top: 10%;
 	display: flex; 
 }
 .product-img{
@@ -357,6 +347,7 @@ margin-bottom: 5%;
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
+  margin: none;
 }
 #list-game td, #list-game th {
   padding: 8px;
@@ -431,7 +422,8 @@ margin-bottom: 5%;
 .button-sell, .button-trade{
 	background-color: #736bb5;
     color: white;
-    width: 33.33px;
+    border-radius: 10px;
+    width: 41.33px;
     height: 18px;
 }
 .button-trade{
@@ -529,4 +521,14 @@ margin-bottom: 5%;
 .popupclose:hover, .popupclose:focus {
 	color: red;
 	cursor: pointer;
+}
+.search-result{
+	width: 17%;
+    height: 17%;
+    border: solid 1px;
+    z-index: 1;
+    position: absolute;
+}
+.btn-active{
+	background-color: #5b5757;
 }

@@ -1,6 +1,4 @@
 <?php include 'header.php'; ?>
-<script src="lib/jquery-3.3.1.min.js"></script>
-<script src="lib/main.js"></script>
 		<body>
 			<div class="screen-wallpaper">
 				<div class="slides" id="img1">
@@ -8,9 +6,6 @@
 				</div>
 				<div class="slides" id="img2">
 					<img src="img/ffxv_wallpaper.jpg">
-				</div>
-				<div class="slides" id="img2">
-					<img src="img/ac.jpg">
 				</div>
 			</div>
 			<div class="btn-slide">
@@ -22,9 +17,6 @@
 					<a href=".img2"></a>
 				</div>
 				
-				<div class="btn" id="btn3">
-					<a href=".img3"></a>
-				</div>
 			</div>
 			</div>
 			<div class="body">

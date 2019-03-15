@@ -5,6 +5,7 @@
 <script src="lib/jquery-3.3.1.min.js"></script>
 <script src="lib/main.js"></script>
 <script src="lib/vue.min.js"></script>
+<script src="vue-carousel.js"></script>
 <script src="lib/angular.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<title>Shop Of Gamer</title>
@@ -17,7 +18,7 @@
 					<img src="mpgames.png">
 				</a>
 				<div class="navbar-menu">
-					<form class="search" action="cari.php" method="post">
+					<form class="search" action="load_search.php" method="post">
 						<input type="text" placeholder="Search For Game..." name="search">
 					</form>
 					<div class="dropdown">
