@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 06, 2019 at 11:35 AM
+-- Generation Time: Mar 18, 2019 at 12:27 PM
 -- Server version: 10.1.37-MariaDB
 -- PHP Version: 7.3.1
 
@@ -57,24 +57,25 @@ CREATE TABLE `game` (
   `description` varchar(3000) NOT NULL,
   `picture` varchar(3000) NOT NULL,
   `developer` char(100) NOT NULL,
-  `release_date` datetime NOT NULL
+  `release_date` datetime NOT NULL,
+  `trailer` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `game`
 --
 
-INSERT INTO `game` (`id_game`, `id_console`, `title`, `description`, `picture`, `developer`, `release_date`) VALUES
-(1, 0, 'Anthem', 'blablabla', 'img/anthem.jpg', 'Sony Playstation', '2018-12-05 00:00:00'),
-(2, 2, 'Final Fantasy XV: Royal Edition', 'blablabla', 'img/ffxv.jpg', 'Sony Playstation', '2018-12-05 00:00:00'),
-(3, 2, 'Nier', 'blablabla', 'img/nier.jpg', 'Squareenix', '2018-12-12 00:00:00'),
-(4, 2, 'Resident Evil 7', 'blablabla', 'img/re7.jpg', 'Bandai', '2018-12-12 00:00:00'),
-(5, 2, 'Resident Evil 2 Remake', 'blablabla', 'img/re2.jpg', '', '2018-12-12 00:00:00'),
-(6, 2, 'Horizon Zero Dawn', 'blablabla', 'img/kh.jpg', 'Guerrilla Games', '2018-12-12 00:00:00'),
-(7, 2, 'The Last Of Us', 'blablabla', 'img/fcnd.jpg', 'Naughty Dog', '2018-12-12 00:00:00'),
-(8, 2, 'The Witcher 3 : Wild hunt', 'blablabla', 'witcher3.jpg', 'CD Projekt', '2018-12-12 00:00:00'),
-(9, 2, 'Spiderman', 'blablabla', 'spiderman.jpg', 'Imsomniac', '2018-12-12 00:00:00'),
-(10, 2, 'God Of War', 'blablabla', 'gow.jpg', 'Santa Monica', '2018-12-12 00:00:00');
+INSERT INTO `game` (`id_game`, `id_console`, `title`, `description`, `picture`, `developer`, `release_date`, `trailer`) VALUES
+(1, 0, 'Anthem', 'Anthem combines third-person shooter and action role-playing game elements in a \"contiguous open world\" shared with up to three other players. Each player takes the role of a Freelancer donning fully customizable exosuits called Javelins.[1] These suits can be customized to have various unique weapons and superhuman abilities.[2] Two classes of Javelins were shown during Anthem\'s presentation at Microsoft\'s E3 2017 Conference: the Ranger, which is an all-around balanced Javelin, and the Colossus, which is a larger and more heavily armored Javelin made to fill in more of a tanking role.[3] Other Javelins include the Storm, which uses powerful technology to unleash the \"rage of the hymn\" while floating effortlessly in the air, and the Interceptor, which is focused on close-quarter combat and can move quickly into and out of combat.[4]\r\n\r\nPlayers can build relationships with various non-playable characters, but they cannot establish romantic relationships with them, as was a trademark of previous BioWare games.[5] The central meeting point of the game takes place in Fort Tarsis, the central stronghold of Anthem. Built by the eponymous General Helena Tarsis, it serves as a fortified settlement against the threats of the outside world and is also the point where the player goes to receive new missions and freelance assignments. It is a melting pot where all the different factions of the game meet, including the Sentinels, Corvus, Cyphers, and Arcanists.[4]\r\n\r\nThe game features both single-player and co-operative multiplayer elements in a \"shared world\" that can have up to four squad members per team. Teams can fight savage beasts and ruthless marauders while exploring lost ruins and experiencing massive, world-altering terrain occurrences, such as \"Shaper Storms\"', 'img/anthem.jpg', 'BioWare', '2018-12-05 00:00:00', 'https://www.youtube.com/embed/DPf-EATqFng'),
+(2, 2, 'Final Fantasy XV: Royal Edition', 'blablabla', 'img/ffxv.jpg', 'Sony Playstation', '2018-12-05 00:00:00', 'https://www.youtube.com/embed/lPHypsuXNKs'),
+(3, 2, 'Nier', 'blablabla', 'img/nier.jpg', 'Squareenix', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/wJxNhJ8fjFk'),
+(4, 2, 'Resident Evil 7', 'blablabla', 'img/re7.jpg', 'Bandai', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/9YetHMnhnhM'),
+(5, 2, 'Resident Evil 2 Remake', 'blablabla', 'img/re2.jpg', '', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/u3wS-Q2KBpk'),
+(6, 2, 'Horizon Zero Dawn', 'blablabla', 'img/kh.jpg', 'Guerrilla Games', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/wzx96gYA8ek'),
+(7, 2, 'The Last Of Us', 'blablabla', 'img/fcnd.jpg', 'Naughty Dog', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/W01L70IGBgE'),
+(8, 2, 'The Witcher 3 : Wild hunt', 'blablabla', 'img/witcher3.jpg', 'CD Projekt', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/ehjJ614QfeM'),
+(9, 2, 'Spiderman', 'blablabla', 'img/spiderman.jpg', 'Imsomniac', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/q4GdJVvdxss'),
+(10, 2, 'God Of War', 'blablabla', 'img/gow.jpg', 'Santa Monica', '2018-12-12 00:00:00', 'https://www.youtube.com/embed/gOE2BVRCUkM');
 
 -- --------------------------------------------------------
 
@@ -28825,7 +28826,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id_user`, `username`, `password`, `email`, `phone`, `bio`, `isResetPassword`, `permission`, `list_game`) VALUES
-(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'squalvj@gmail.com', 123, 'tampansekali', 0, 1, '1, 2, 3'),
+(1, 'admin', '21232f297a57a5a743894a0e4a801fc3', 'squalvj@gmail.com', 123, 'tampansekali', 0, 1, '1, 2, 3, 6'),
 (2, 'tampan', 'd489a3289ecdc847cb67f7a480e6f9fa', 'squalvj@gmail.com', 123, 'tampansekali', 0, 3, '0'),
 (3, 'simeki', '831167d1d11e16b877055beb00ffec4b', 'squalvj@gmail.com', 123, 'tampansekali', 0, 3, '0'),
 (4, 'kaneki', '831167d1d11e16b877055beb00ffec4b', 'squalvj@gmail.com', 123, 'tampansekali', 0, 3, '0'),
