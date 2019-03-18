@@ -4,7 +4,7 @@ include 'db.php';
 	$sql = "SELECT * FROM game WHERE title LIKE '%$search%'";
 	     
 	$result = mysqli_query($conn, $sql);
-	if (mysqli_num_rows($result) > 0){
+	if (mysqli_num_rows($result) > 1){
 		while($row = $result->fetch_assoc()){
 			echo "<p>";
 			echo $row ['title'];
@@ -13,7 +13,10 @@ include 'db.php';
 			echo "<img src=".$row ['picture'].">";
 
 		}
-	}else {
-		echo "Pencarian Tidak Ada !";
+	}elseif (mysqli_num_rows($result) === 1){
+		while($row = $result->fetch_assoc()){
+			header('location:product.php?id_game='.$row['id_game'].'');
+	}}else{
+		echo "Pencarian Tidak Ada !!!";
 	}
 ?> 

@@ -1,4 +1,12 @@
-<?php include 'header.php'; ?>
+<?php 
+include 'header.php';
+include 'db.php';
+$id = $_GET['id_game'];
+$sql = "SELECT * from game where id_game = '$id'";
+$result = mysqli_query($conn, $sql);
+while($row = $result->fetch_assoc()) {
+ ?>
+
 	<body>
 		<div class="body">
 			<div class="product">
@@ -7,23 +15,23 @@
 					<span class=""><a href="./"> Home</a> / Product</span>
 				</div>
 				<div class="body-product">
-					<div class="product-img">
-						<img src="img/ffxv.jpg">
-					</div>
+					
+						<div class="product-img">
+							<img src="<?php echo $row ['picture']?>">
+						</div>
+
 					<div class="product-desc">
 						<div class="product-name">
-							<span>Final Fantasy XV</span>
+							<span><?php echo $row ['title']?></span>
 						</div>
 						
 						<div class="product-price">
-							<span>RP.300.000</span>
+							<span><?php echo $row ['harga']?></span>
 						</div>
 
 						<div class="product-deskripsi">
 							<span>Mauris lobortis augue ex, ut faucibus nisi mollis ac. Sed volutpat scelerisque ex ut ullamcorper. Cras at velit quis sapien dapibus laoreet a class odio. Sed sit amet accumsan ante, eu congue metus. Aenean eros tortor, cursus quis feugiat sed vestibulum.</span>
 						</div>
-
-						<button class="button-order" value="Pesan"><a href="#">Pesan ==></a></button>
 
 						<div class="tab-product">
 							<div class="nav-tabs">
@@ -36,9 +44,6 @@
 								<li class="nav-item3">
 									<a href="#tab-content3">description</a>
 								</li>
-								<li class="nav-item4">
-									<a href="#tab-content4">test</a>
-								</li>
 							</div>
 
 							<div class="product-tab">
@@ -46,7 +51,7 @@
 									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incclassclassunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 								</div>
 								<div class="tab-content2 active">
-									<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IiI7SMQA59Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<iframe width="100%" height="100%" src="<?php echo $row ['trailer']?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 								</div>
 								<div class="tab-content3">
 									Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
@@ -58,6 +63,7 @@
 						</div>
 					</div>
 				</div>
+			<?php } ?>
 				<div class="listing">
 					<table id="list-game">
 						<tr>
@@ -71,7 +77,7 @@
 						<tr>
 							<td class="listing-name">
 								<div class="listing-img">
-									<img src="img/ffxv.jpg" style="width: 80px">
+									<img src="img/ffxv.jpg"nstyle="width: 80px">
 								</div>
 								<div class="list-name1">
 									Final Fantasy XV
@@ -115,9 +121,6 @@
 					</table>
 				</div>
 			</div>
-			
-
-
 			<div class="feature">
 					<h2>Mungkin Anda Sukai Berdasarkan Genre</h2>
 				</div>

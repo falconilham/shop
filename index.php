@@ -7,6 +7,9 @@
 				<div class="slides" id="img2">
 					<img src="img/ffxv_wallpaper.jpg">
 				</div>
+				<div class="slides" id="img3">
+					<img src="img/ac.jpg">
+				</div>
 			</div>
 			<div class="btn-slide">
 				<div class="btn" id="btn1">
